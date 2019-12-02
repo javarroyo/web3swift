@@ -20,14 +20,14 @@ public protocol IWebsocketProvider {
 
 public enum InfuraWebsocketMethod: String, Encodable {
     
-    case newPendingTransactionFilter = "eth_newPendingTransactionFilter"
-    case getFilterChanges = "eth_getFilterChanges"
-    case newFilter = "eth_newFilter"
-    case newBlockFilter = "eth_newBlockFilter"
-    case getFilterLogs = "eth_getFilterLogs"
-    case uninstallFilter = "eth_uninstallFilter"
-    case subscribe = "eth_subscribe"
-    case unsubscribe = "eth_unsubscribe"
+    case newPendingTransactionFilter = "aht_newPendingTransactionFilter"
+    case getFilterChanges = "aht_getFilterChanges"
+    case newFilter = "aht_newFilter"
+    case newBlockFilter = "aht_newBlockFilter"
+    case getFilterLogs = "aht_getFilterLogs"
+    case uninstallFilter = "aht_uninstallFilter"
+    case subscribe = "aht_subscribe"
+    case unsubscribe = "aht_unsubscribe"
     
     public var requiredNumOfParameters: Int? {
         get {
