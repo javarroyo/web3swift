@@ -4,6 +4,7 @@
 //  Copyright © 2018 Alex Vlasov. All rights reserved.
 //
 
+#if canImport(CoreImage)
 import Foundation
 import CoreImage
 import BigInt
@@ -136,3 +137,4 @@ extension Web3 {
         }
     }
 }
+#endif
