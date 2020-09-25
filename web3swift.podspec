@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
     spec.source_files = "Sources/web3swift/{Contract,Convenience,EthereumABI,EthereumAddress,HookedFunctions,KeystoreManager,Promises,SwiftRLP,Transaction,Web3}/*.swift", "Sources/web3swift/{Tokens,Utils}/**/*.swift"
     spec.swift_version = '5.0'
     spec.dependency 'PromiseKit', '~> 6.8.4'
-    spec.dependency 'BigInt', '~> 4.0'
+    spec.dependency 'BigInt', '~> 5.0'
     spec.dependency 'Starscream', '~> 3.1.0'
     spec.dependency 'CryptoSwift', '~> 1.0.0'
     spec.dependency 'secp256k1.c', '~> 0.1'
